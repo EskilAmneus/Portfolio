@@ -8,15 +8,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <div class = "container">
+    <!-- Div class container använder jag för att dela upp hemsidan i olika delar-->
+    <div class = "container"> 
+        <!-- c1 är en minicontainer för att få namebox och picture på samma flex direction column rad
+        och få bluebox att hamna till höger om dem-->
         <div class="c1">
+            <!--namebox är en box som har rubriken ovanpå sig-->
             <div class = "namebox">
                 <h1> Eskil Amnéus </h1>
             </div>
+            <!--picture är bilden under namebox-->
             <div class = "picture"></div>
         </div>
+        <!--bluebox är den mörkblå rutan till höger på förstasidan den har backgoundBox i sig eftersom 
+        den är ovanpå.-->
         <div class = "blueBox">
+            <!--backgoundBox är en ruta för att få backgroundstexten att se bättre ut-->
             <div class="backgroundBox">
                 <h3> Bakgrund </h3>
                 <p> Jag heter Eskil Amnéus och är 16 år. Jag växte upp i ett hus som ligger långt här ifrån ifall man är en myra. Jag är nu pansionerad sedan fem år tillbaka efter att ha startat 
@@ -32,11 +39,18 @@
         
         
     </div>
-    
+    <!--container2 en stor container för hela undersidan-->
     <div class = "container2" >
-        <div class = "c3">
+        <!--c2 är en minicontainer för att hålla eudationBox, experienceBox och contactBox på vänstra
+        sidan om bilden (carPicture)-->
+        <div class = "c2">
+            <!--bluebox2 är den mörkblåa bakgrunden bakom de ljusblåa rutorna. De ljusblåa rutorna 
+            ligger innanför eftersom de är ovanpå-->
             <div class = bluebox2 >
-                <div class = "c4">
+                <!--c3 är en minicontainer för att educationBox och experienceBox ska vara på samma
+                rad (flex direction row) medan contactBox ska vara under-->
+                <div class = "c3">
+                    <!--educationBox är en ljusblå ruta med information om min utbildning-->
                     <div class = educationBox>
                         <h2>Utblidning</h2>
                         <h4>Jag gick ut grundskolan fem år tidigare med högsta betyg i alla ämnen.
@@ -46,6 +60,7 @@
                             fick ett stipendium värt 500 000 kr för mina insatser.
                         </h4>
                     </div>
+                    <!--experienceBox är en ljusblå ruta som inehåller information om min jobberfarenhet-->
                     <div class = experienceBox>
                         <h2>Tidigare erfarenhet</h2>
                         <h4>Jag har stor jobberfarenhet. Min högklassiga har givit mig möjligheten
@@ -56,6 +71,7 @@
                         </h4>
                     </div>
                 </div>
+                <!--contactBox är en ljusblå ruta som innehåller information om hur man kontaktar mig-->
                 <div class = contactBox>
                     <h2>Kontakta mig</h2>
                     <h5>Email → eskil.amneus@beans.inc
@@ -65,6 +81,8 @@
                 </div>
             </div>
         </div>
+        <!--carPicture är en bild på en bil som är till vänster som rutorna eftersom den inte är med 
+        i c2 containern-->
         <div class = carPicture ></div>
     </div>
             
